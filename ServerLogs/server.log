@@ -1,0 +1,50 @@
+2020-07-06 11:02:35:512 [Appium] Welcome to Appium v1.17.1
+2020-07-06 11:02:35:514 [Appium] Non-default server args:
+2020-07-06 11:02:35:515 [Appium]   sessionOverride: true
+2020-07-06 11:02:35:516 [Appium]   logFile: /Users/maddy/eclipse-workspace/Appium Basics/ServerLogs/server.log
+2020-07-06 11:02:35:558 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-07-06 11:02:35:767 [HTTP] --> GET /wd/hub/status
+2020-07-06 11:02:35:767 [HTTP] {}
+2020-07-06 11:02:35:770 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-07-06 11:02:35:772 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.17.1"}}
+2020-07-06 11:02:35:777 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2020-07-06 11:02:35:778 [HTTP] 
+2020-07-06 11:02:36:871 [HTTP] --> POST /wd/hub/session
+2020-07-06 11:02:36:872 [HTTP] {"desiredCapabilities":{"app":"/Users/maddy/Downloads/ApiDemos-debug.apk","automationName":"UiAutomator2","platformName":"Android","deviceName":"iPhone Simulator","platformVersion":"8.0.0"},"capabilities":{"firstMatch":[{"appium:app":"/Users/maddy/Downloads/ApiDemos-debug.apk","appium:automationName":"UiAutomator2","appium:deviceName":"iPhone Simulator","platformName":"android","appium:platformVersion":"8.0.0"}]}}
+2020-07-06 11:02:36:873 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/maddy/Downloads/ApiDemos-debug.apk","automationName":"UiAutomator2","platformName":"Android","deviceName":"iPhone Simulator","platformVersion":"8.0.0"},null,{"firstMatch":[{"appium:app":"/Users/maddy/Downloads/ApiDemos-debug.apk","appium:automationName":"UiAutomator2","appium:deviceName":"iPhone Simulator","platformName":"android","appium:platformVersion":"8.0.0"}]}]
+2020-07-06 11:02:36:874 [BaseDriver] Event 'newSessionRequested' logged at 1594033356873 (16:32:36 GMT+0530 (India Standard Time))
+2020-07-06 11:02:37:456 [Appium] Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+2020-07-06 11:02:37:457 [Appium] There are no active sessions for cleanup
+2020-07-06 11:02:37:460 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-07-06 11:02:37:460 [BaseDriver] Creating session with W3C capabilities: {
+2020-07-06 11:02:37:460 [BaseDriver]   "alwaysMatch": {
+2020-07-06 11:02:37:460 [BaseDriver]     "platformName": "android",
+2020-07-06 11:02:37:461 [BaseDriver]     "appium:app": "/Users/maddy/Downloads/ApiDemos-debug.apk",
+2020-07-06 11:02:37:461 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2020-07-06 11:02:37:461 [BaseDriver]     "appium:deviceName": "iPhone Simulator",
+2020-07-06 11:02:37:461 [BaseDriver]     "appium:platformVersion": "8.0.0"
+2020-07-06 11:02:37:461 [BaseDriver]   },
+2020-07-06 11:02:37:461 [BaseDriver]   "firstMatch": [
+2020-07-06 11:02:37:462 [BaseDriver]     {}
+2020-07-06 11:02:37:462 [BaseDriver]   ]
+2020-07-06 11:02:37:462 [BaseDriver] }
+2020-07-06 11:02:37:470 [BaseDriver] Session created with session id: 3ddf64a5-98e9-40f9-867c-ff5e1d792079
+2020-07-06 11:02:37:472 [BaseDriver] Using local app '/Users/maddy/Downloads/ApiDemos-debug.apk'
+2020-07-06 11:02:37:473 [UiAutomator2] Checking whether app is actually present
+2020-07-06 11:02:37:475 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-07-06 11:02:37:484 [UiAutomator2] Deleting UiAutomator2 session
+2020-07-06 11:02:37:486 [BaseDriver] Event 'newSessionStarted' logged at 1594033357486 (16:32:37 GMT+0530 (India Standard Time))
+2020-07-06 11:02:37:534 [W3C] Encountered internal error running command: Error: Could not find 'adb' in PATH. Please set the ANDROID_HOME or ANDROID_SDK_ROOT environment variables to the correct Android SDK root directory path.
+2020-07-06 11:02:37:535 [W3C]     at ADB.getBinaryFromPath (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:140:11)
+2020-07-06 11:02:37:594 [W3C] Destroying socket connection
+2020-07-06 11:02:37:595 [HTTP] <-- POST /wd/hub/session 500 723 ms - 791
+2020-07-06 11:02:37:595 [HTTP] 
+2020-07-06 11:03:58:940 [HTTP] --> GET /wd/hub/status
+2020-07-06 11:03:58:940 [HTTP] {}
+2020-07-06 11:03:58:941 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-07-06 11:03:58:941 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.17.1"}}
+2020-07-06 11:03:58:943 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2020-07-06 11:03:58:943 [HTTP] 
+2020-07-06 11:03:58:952 uncaughtException: write EPIPE
+Error: write EPIPE
+    at WriteWrap.afterWrite (net.js:788:14)
